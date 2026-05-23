@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Arial', sans-serif;
 }
 
 :root {
@@ -337,16 +338,16 @@ select {
 .add-trip-form .form-group {
     display: flex;
     flex-direction: column;
-    gap:3px;
+    gap: 3px;
 }
 
-.add-trip-form .form-group .bus-options{
+.add-trip-form .form-group .bus-options {
     display: flex;
     gap: 10px;
     margin-left: 10px;
 }
 
-.add-trip-form input[type="radio"]{
+.add-trip-form input[type="radio"] {
     width: 12px;
     height: 12px;
     margin-top: 5px;
@@ -375,8 +376,9 @@ select {
 
 .add-trip-form button:hover {
     background-color: var(--primary-dark);
-} */
+}
 
+*/
 
 /* Passenger Search Form Styles (Dynamic) */
 .passenger-search-form {
@@ -646,4 +648,3 @@ select {
     border: none;
     border-top: 1px solid #e2e8f0;
 }
-
